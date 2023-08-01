@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kameron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
+
+body {
+    background-color: #000513;
+}
+
+.home-page {
+    max-width: 1440px;
+    min-width: 880px;
+    height: 1024px;
+    background-image: url("./img/Desktop_-_1.png");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: 40% top;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Header */
+
+.header {
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    margin-bottom: 400px;
+    
+}
+
+
+.header>button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.header>button>img {
+    width: 35px;
+    height: 35px;
+}
+
+.navigation {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    gap: 100px;
+}
+
+
+.navigation>a {
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    font-family: 'Karma', serif;
+    font-weight: 600;
+}
+
+.navigation>a:hover {
+    text-decoration: underline;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    top: -75px;
+    left: -220px;
+    pointer-events: none;
+}
+
+/* Header end*/
+
+/* Content */
+
+.content {
+    width: 785px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+
+.description {
+    background: -webkit-linear-gradient(top, rgb(255, 255, 255) 10%, rgba(255, 255, 255, 0.058) 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.description>p {
+    color: white;
+    font-size: 29px;
+    font-family: 'Kameron', serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.read-more>a {
+    color: white;
+    font-size: 25px;
+    font-family: 'Karma', serif;
+    font-weight: 400;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.read-more>a:hover {
+    text-decoration: underline;
+}
+
+.read-more>img {
+    vertical-align: middle;
+}
+
+/* Content end */
+
+/* Footer */
+
+.footer {
+    padding: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.list {
+    color: white;
+    font-family: 'Karma', serif;
+    font-weight: 700;
+
+}
+
+.list>h3 {
+    font-size: 32px;
+    margin: 0px;
+}
+
+.list>ul>li>a {
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+}
+
+.list>ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.list>ul>li>a:hover {
+    text-decoration: underline;
+}
+
+/* Footer end */
